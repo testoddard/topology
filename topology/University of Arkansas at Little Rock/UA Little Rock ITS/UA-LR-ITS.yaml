@@ -20,3 +20,26 @@ Resources:
     Services:
       Execution Endpoint:
         Description: UALR backfill containers
+UA-LR-ITS-squid1:
+      Active: true
+    ContactLists:
+      Administrative Contact:
+        Primary:
+          ID: 1d1de15f8d54ec20ce6da7c73420a3f721b819e4
+          Name: Timothy Stoddard
+        Secondary:
+          ID: 1d1de15f8d54ec20ce6da7c73420a3f721b819e4
+          Name: Timothy Stoddard
+      Security Contact:
+        Primary:
+          ID: 1d1de15f8d54ec20ce6da7c73420a3f721b819e4
+          Name: Timothy Stoddard
+        Secondary:
+          ID: 1d1de15f8d54ec20ce6da7c73420a3f721b819e4
+          Name: Timothy Stoddard
+    Description: Round robin DNS alias for our two Frontier Squid nodes.
+    FQDN: frontier-cache.res.ualr.edu
+    ID: 1348
+    Services:
+      Squid:
+        Description: Generic squid service
